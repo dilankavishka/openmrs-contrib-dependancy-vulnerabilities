@@ -1,8 +1,11 @@
 @use "@carbon/react";
 
-@include react.theme(react.$light-theme);
+:root {
+  @include react.theme(react.$white);
+}
+
 body {
   margin: 0;
   padding: 0;
-  background-color: react.$ui-01;
+  background-color: react.$background;
 }
